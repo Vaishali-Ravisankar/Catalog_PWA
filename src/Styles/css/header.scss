@@ -1,0 +1,129 @@
+header {
+	height: 50px;
+	background-image: -webkit-gradient(linear, left top, right top, from(#0a66bc), color-stop(#3961bb), color-stop(#535bb9), color-stop(#6853b5), to(#7b4bae));
+	background-image: -webkit-linear-gradient(left, #0a66bc, #3961bb, #535bb9, #6853b5, #7b4bae);
+	background-image: -o-linear-gradient(left, #0a66bc, #3961bb, #535bb9, #6853b5, #7b4bae);
+	background-image: linear-gradient(to right, #0a66bc, #3961bb, #535bb9, #6853b5, #7b4bae);
+	width: 100%;
+	position: relative;
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+}
+
+
+header .main_logo {
+	color: #ffffff;
+	text-transform: uppercase;
+	font-family: 'Graphik-Bold-Web';
+	font-size: 16px;
+	float: left;
+	padding: 16px 25px 16px 25px;
+	margin-bottom: 0;
+	line-height: initial;
+}
+
+header .main_logo span {
+	color: #ffffff;
+	text-transform: uppercase;
+	font-family: 'Graphik-Regular-Web';
+}
+
+
+.right_section {
+	margin: 0;
+	border: 0;
+	height: 50px;
+}
+
+
+ul.right_section > li {
+	display: block;
+	height: 100%;
+	float: left;
+}
+
+
+ul.right_section > li.user {
+	padding: 8px 15px;
+}
+
+ul.right_section > li.user .dropdown-menu{
+	left: auto;
+	right: 5px;
+}
+
+ul.right_section > li.user .dropdown-menu li a{
+	font-size: 12px;
+}
+
+
+
+ul.right_section > li > a {
+	color: #ffffff;
+}
+
+
+ul.right_section > li > a.dropdown-toggle {}
+
+
+
+ul.right_section > li.help > a span {
+	color: #724fb2;
+	background: #ffffff;
+	border-radius: 50%;
+	padding: 2px 5px;
+	font-size: 13px;
+	font-family: 'Graphik-Bold-Web';
+	text-align: center;
+}
+
+ul.right_section > li.help {
+
+	padding: 12px 10px;
+}
+
+
+ul.right_section > li.notification {
+
+	padding: 14px 12px;
+}
+
+
+
+
+
+#userPic {
+	float: left;
+	background: #ffffff;
+	padding: 4px;
+	border-radius: 50%;
+	height: 35px;
+	width: auto;
+	margin-right: 13px;
+}
+
+
+ul.right_section > li.user > a span.glyphicon-menu-down {
+	font-size: 10px;
+	background: #9169bc;
+	padding: 8px;
+	border-radius: 50%;
+	margin-left: 10px;
+	margin-top: 3px;
+}
+
+
+ul.right_section > li.user > a span.userName {
+	display: block;
+	font-size: 12px;
+	text-transform: uppercase;
+}
+
+
+ul.right_section > li.user > a span.userRole {
+	display: block;
+	font-size: 11px;
+	color: #8bb0d2;
+}

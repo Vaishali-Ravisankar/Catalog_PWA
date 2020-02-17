@@ -1,0 +1,62 @@
+[
+    {
+        "id": 1,
+        "type": "Long Sleev Tshirt",
+        "price": 150.00,
+        "Photo": "../../assets/f-p-1.png"
+    },
+    {
+        "id": 2,
+        "type": "Long Sleev Tshirt",
+        "price": 150.00,
+        "Photo": "../../assets/f-p-2.png"
+    },
+    {
+        "id": 3,
+        "type": "Long Sleev Tshirt",
+        "price": 150.00,
+        "Photo": "../../assets/f-p-3.png"
+    },
+    {
+        "id": 4,
+        "type": "Long Sleev Tshirt",
+        "price": 150.00,
+        "Photo": "../../assets/f-p-4.png"
+    },
+    {
+        "id": 5,
+        "type": "Long Sleev Tshirt",
+        "price": 150.00,
+        "Photo": "../../assets/f-p-5.png"
+    },
+    {
+        "id": 6,
+        "type": "Long Sleev Tshirt",
+        "price": 150.00,
+        "Photo": "../../assets/f-p-1.png"
+    },
+    {
+        "id": 7,
+        "type": "Long Sleev Tshirt",
+        "price": 150.00,
+        "Photo": "../../assets/f-p-2.png"
+    },
+    {
+        "id": 8,
+        "type": "Long Sleev Tshirt",
+        "price": 150.00,
+        "Photo": "../../assets/f-p-3.png"
+    },
+    {
+        "id": 9,
+        "type": "Long Sleev Tshirt",
+        "price": 150.00,
+        "Photo": "../../assets/f-p-4.png"
+    },
+    {
+        "id": 10,
+        "type": "Long Sleev Tshirt",
+        "price": 150.00,
+        "Photo": "../../assets/f-p-5.png"
+    }
+]

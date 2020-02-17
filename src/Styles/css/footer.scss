@@ -1,0 +1,41 @@
+/*   FOOTER CSS   STARTS*/
+
+footer {
+	position:fixed;
+	width: calc(100% - 90px);
+	z-index: 999;
+	bottom: 0;
+	height: 45px;
+	left: 90px;
+	padding: 10px 15px;
+	background: #eff0f1;
+}
+
+
+footer .footer_logo{
+    width: auto;
+    float: left;
+}
+
+
+
+footer .copyright{
+	float: right;
+	font-size: 11px;
+	color: #756d6d;
+	padding-top: 7px;
+}
+
+footer .copyright a{
+  
+color: #756d6d;
+  
+font-family: "Graphik";
+  
+font-weight: 600;
+}
+
+
+
+
+/* FOOTER CSS ENDS */
