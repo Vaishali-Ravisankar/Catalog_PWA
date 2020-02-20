@@ -53,12 +53,14 @@ html {
     --primaryBackground: #ffffff;	
 	--primaryTextColor: #000000;	
 	--newsLetterBackGround:#FAF9FF;	
+	font-family: "Segoe UI";
 }	
 // dark theme	
 html[data-theme="dark"] {	
     --primaryBackground: #030101;	
 	--primaryTextColor: #ffffff;	
 	--newsLetterBackGround:#258ff0;	
+	font-family: "Segoe UI";
 }	
 .container-fluid{	
 	background: var(--primaryBackground);	
@@ -613,6 +615,7 @@ body {
 	color: red;
 }
 .footer_block {
+	padding-top:40px;
 	input.placeholder {
 		background-color: $bgColor11;
 	}
@@ -623,7 +626,7 @@ body {
 	}
 }
 .footer_page {
-	padding-top: 120px;
+	//padding-top: 120px;
 	background-color: $color1;
 }
 .copy {
@@ -718,6 +721,7 @@ body {
 	.navbar-nav {
 		>li {
 			>a {
+				font-weight: bold;
 				&:hover {
 					color: $color14;
 				}
@@ -738,7 +742,7 @@ body {
 }
 .banner_image {
 	img {
-		background: url('../css/banner-bg.png') no-repeat;
+		//background: url('../css/banner-bg.png') no-repeat;
 		width: 100vw;
 		min-height: 650px;	
 		height: auto;
@@ -829,7 +833,7 @@ justify-content: center;
 	img {
 		background: url('../css/banner-bg.png') no-repeat;
 		display: table;
-		height: 200px;
+		height: 230px;
 		position: relative;
 		width: 100%;
 		background-size: cover !important;
@@ -839,13 +843,13 @@ justify-content: center;
 }
 .banner_text {
 	position: absolute;
-	top: 50%;
+	top: 75%;
 	left: 50%;
 	transform: translate(-50%, -50%);
 	color: $color1;
 	h1{	
 		font-size: 35px;	
-		padding-bottom: 20px;	
+		//padding-bottom: 20px;	
 		p {	
 			padding-bottom:20px	
 		}	
@@ -897,6 +901,7 @@ justify-content: center;
 	pre {
 		background-color: $color1;
 		font-size: 14px;
+		border:none
 	}
 	.t2 {
 		-moz-tab-size: 4;

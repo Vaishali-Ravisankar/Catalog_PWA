@@ -2,6 +2,7 @@ import React, { Suspense } from "react";
 import "../Styles/css/bootstrap.min.css";
 import "../Styles/css/components.scss";
 import "../Styles/css/style.scss";
+import BannerImg from "../Styles/css/banner-bg.png"
 
 
 class Banner extends React.Component {
@@ -12,7 +13,7 @@ class Banner extends React.Component {
       
 <div className="Banner_page">
 <div class="banner_image">
-<img class="img-responsive img-changes" />
+<img class="img-responsive img-changes" src={BannerImg}/>
 <div class="banner_text">
 <h1>Fashion for <br />Upcoming Winter</h1>
 <p>“Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua  Ut enim ad minim veniam, quis nostrud exercitation</p>
