@@ -938,6 +938,12 @@ justify-content: center;
 	}
 }
 @media only screen and (max-width: 767px) {
+	.banner_text{
+		display:none
+	}
+	.banner_subpage img{
+		height:125px;
+	}
 	ul.nav.navbar-nav.navbar-right {	
 		a {	
 		position: relative;	
