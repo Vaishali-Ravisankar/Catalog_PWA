@@ -5,6 +5,7 @@ import "../Styles/css/style.scss";
 import NewsLetter from "./NewsLetter";
 import Footer from "./Footer";
 import Header from "./Header";
+import placeholderImg from '../Styles/css/f-p-1.png'
 
 class ProdDetail extends React.Component {
     constructor(props){ 
@@ -39,7 +40,7 @@ class ProdDetail extends React.Component {
 </div>
 <div class="container-fluid paddingT120">
             <div class="row">
-                <div class="col-md-6 image_block" ><img src="./assets/f-p-1.png" alt="" />
+                <div class="col-md-6 image_block" ><img src={placeholderImg} alt="" />
                 </div>
                 <div class="col-md-6 product_desc">
                     <h2>Item Model</h2>

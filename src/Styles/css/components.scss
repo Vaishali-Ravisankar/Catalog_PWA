@@ -828,7 +828,9 @@ justify-content: center;
 }
 
 /*-----------------------Produtsdetails-Page------------------------*/
-
+.Banner_page .banner_text{
+top:50%;
+}
 .banner_subpage {
 	img {
 		background: url('../css/banner-bg.png') no-repeat;
