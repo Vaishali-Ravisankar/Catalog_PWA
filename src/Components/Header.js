@@ -2,9 +2,19 @@ import React, { Suspense } from "react";
 import "../Styles/css/bootstrap.min.css";
 import "../Styles/css/components.scss";
 import "../Styles/css/style.scss";
-import  logo from "../Styles/css/logo.png"
+import  logo from "../Styles/css/logo.png";
+import { withRouter } from 'react-router-dom';
 
 class Header extends React.Component {
+   
+  constructor(props){
+      super(props)
+      this.handleHome=this.handleHome.bind(this)
+  }
+
+  handleHome(){
+      this.props.history.push("/")
+  }
 
   render(){
     return(
@@ -43,7 +53,7 @@ class Header extends React.Component {
         <div class="container-fluid">
         
                 <ul class="nav navbar-nav">
-                    <li class="nav-link"><a href="#Home">Home</a></li>
+                    <li class="nav-link"><a onClick={this.handleHome}>Home</a></li>
                     <li class="nav-link"><a href="#Shop">Shop</a></li>
                     <li class="nav-link"><a href="#Blog">Blog</a></li>
                     <li class="nav-link"><a href="#Pages">Pages</a></li>
@@ -53,7 +63,7 @@ class Header extends React.Component {
                  <ul class="nav navbar-nav navbar-right">
                         <li><a href="#"><span class="fa fa-search"></span></a></li>
                         <li><a href="#"><span class="fa fa-user"></span></a></li>
-                        <li><a href="#"><span class="fa fa-heart-o"></span></a></li>
+                        <li><a href="#"><span class="fa fa-heart-o">{this.props.favCount}</span></a></li>
                         <li><a href="#"><span class="fa fa-shopping-cart"></span></a></li>
                       </ul>
                 </span>
@@ -65,4 +75,4 @@ class Header extends React.Component {
     }
 };
 
-export default Header;
+export default withRouter(Header);

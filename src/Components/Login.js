@@ -14,9 +14,11 @@ class Login extends React.Component {
   super(props)
   this.state = {
     theme: "light",
-    activeArticleId: 1
+    activeArticleId: 1,
+    fav:0
   };
   this.toggleTheme=this.toggleTheme.bind(this)
+  this.handFavCount=this.handFavCount.bind(this)
   };
   // componentDidMount(){
   //   Notification.requestPermission(function(status) {
@@ -55,12 +57,21 @@ class Login extends React.Component {
     }, 1000);
   }
 
+  handFavCount(val){
+    if (val === 0)
+    this.setState({fav:this.state.fav - 1})
+    else
+    this.setState({fav:this.state.fav+1})
+  }
+
+  
+
   render() {
     return (
       <div>
-        <Header toggleTheme={this.toggleTheme} />
+        <Header toggleTheme={this.toggleTheme} favCount={this.state.fav} />
         <Banner />
-        <PostList />
+        <PostList handleCount={this.handFavCount} />
         <NewsLetter />
         <Footer />
         
