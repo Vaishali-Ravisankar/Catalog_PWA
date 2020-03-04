@@ -34,8 +34,8 @@ class ProdDetail extends React.Component {
 <div class="banner_subpage">
 <img class="img-responsive img-changes" />
 <div class="banner_text">
-<h1>single Product Page</h1>
-<p>Home &#8594; Category &#8594; Product Detials</p>
+<h1>Single Product Page</h1>
+<p>Home &#8594; Category &#8594; Product Details</p>
 </div>
 </div>
 <div class="container-fluid paddingT120">
