@@ -11,7 +11,7 @@
     "jquery": "^3.4.1",
     "moment": "^2.24.0",
     "moment-timezone": "^0.5.27",
-    "node-sass": "^4.13.1",
+    "node-sass": "^7.0.0",
     "nprogress": "^0.2.0",
     "pubnub": "^4.27.3",
     "pubnub-react": "^2.0.0",
